@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/country_province_list_fragment">
+
+    <fragment
+        android:id="@+id/country_province_list_fragment"
+        android:name="com.rgu5android.sample.ui.detail.CountryProvinceListFragment"
+        android:label="@string/country_province_details"
+        tools:layout="@layout/country_province_list_fragment">
+
+        <argument
+            android:name="countryId"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <argument
+            android:name="countryName"
+            android:defaultValue=""
+            app:argType="string" />
+
+    </fragment>
+</navigation>

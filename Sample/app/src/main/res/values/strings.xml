@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="please_check_your_internet_connection_and_try_again">Please check your internet connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="country_list">Country List</string>
+    <string name="country_province_details">Country Province Details</string>
+    <string name="no_province_found">No province found.!!</string>
+    <string name="country_list_is_empty">Country list is empty.!!</string>
+</resources>

@@ -1,0 +1,20 @@
+[
+  {
+    "ID": 97,
+    "CountryCode": "US",
+    "Code": "AL",
+    "Name": "Alabama"
+  },
+  {
+    "ID": 101,
+    "CountryCode": "US",
+    "Code": "AK",
+    "Name": "Alaska"
+  },
+  {
+    "ID": 132,
+    "CountryCode": "US",
+    "Code": "AS",
+    "Name": "American Samoa"
+  }
+]
